@@ -1,0 +1,103 @@
+
+.carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 210px;
+  margin: 0;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.carousel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(-182px) rotateY(0);
+  transform: translateZ(-182px) rotateY(0);
+  -webkit-animation: carousel 10s infinite cubic-bezier(1, 0.015, 0.295, 1.225) forwards;
+  animation: carousel 20s infinite cubic-bezier(0, 0, 0, 0) forwards;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 210px;
+  border-radius: 6px;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 18pt;
+  
+}
+
+.carousel-item:nth-child(1) {
+  /*background-image: linear-gradient( -23deg, rgb(0,0,0,0.0) 50%, rgba(49, 192, 204, 0.9) 50% );*/
+  background-color:rgba(49, 192, 204, 0.9);
+  -webkit-transform: rotateY(0) translateZ(182px);
+  transform: rotateY(0) translateZ(182px);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  padding-top: 15%;
+}
+
+.carousel-item:nth-child(2) {
+  background-color:rgba(190, 100, 204, 0.9);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-transform: rotateY(120deg) translateZ(182px);
+  transform: rotateY(120deg) translateZ(182px);
+  padding-top: 15%;
+   
+}
+
+.carousel-item:nth-child(3) {
+  background: rgba(236, 233, 150, 0.9);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-transform: rotateY(240deg) translateZ(182px);
+  transform: rotateY(240deg) translateZ(182px);
+  padding-top: 20%;
+ }
+
+ @-webkit-keyframes 
+carousel {  0%, 17.5% {
+ -webkit-transform: translateZ(-182px) rotateY(0);
+ transform: translateZ(-182px) rotateY(0);
+}
+ 27.5%, 45% {
+ -webkit-transform: translateZ(-182px) rotateY(-120deg);
+ transform: translateZ(-182px) rotateY(-120deg);
+}
+ 55%, 72.5% {
+ -webkit-transform: translateZ(-182px) rotateY(-240deg);
+ transform: translateZ(-182px) rotateY(-240deg);
+}
+ 82.5%, 100% {
+ -webkit-transform: translateZ(-182px) rotateY(-360deg);
+ transform: translateZ(-182px) rotateY(-360deg);
+}
+}
+ @keyframes 
+carousel {  0%, 17.5% {
+ -webkit-transform: translateZ(-182px) rotateY(0);
+ transform: translateZ(-182px) rotateY(0);
+}
+ 27.5%, 45% {
+ -webkit-transform: translateZ(-182px) rotateY(-120deg);
+ transform: translateZ(-182px) rotateY(-120deg);
+}
+ 55%, 72.5% {
+ -webkit-transform: translateZ(-182px) rotateY(-240deg);
+ transform: translateZ(-182px) rotateY(-240deg);
+}
+ 82.5%, 100% {
+ -webkit-transform: translateZ(-182px) rotateY(-360deg);
+ transform: translateZ(-182px) rotateY(-360deg);
+}
+}

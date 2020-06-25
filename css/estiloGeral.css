@@ -1,0 +1,210 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+    /* geral */
+    html{
+      scroll-behavior: smooth;
+    }
+    ::-webkit-scrollbar {
+         width: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+          border-radius: 20px;
+          background: rgba(255,0,0,0.6); 
+          -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.8); 
+    }
+
+
+    /* estilo header */
+  .img{
+      width: 100%
+  }
+  .logo{
+      position: absolute; width: 12%; right: 5%; position: fixed; z-index: 99; transition: all 600ms linear;
+  }
+  .logo.lg {
+        width: 8%; 
+   }
+  .divPrinHeader{
+    padding: 0px
+  }
+  #box{
+     z-index: -1; top: 0px; width: 100%; overflow: hidden; padding-top: 80px; height: 600px;
+  }
+  .meuInput{
+    border-radius: 6px
+  }
+  .imgRedes{
+    width: 15%; -webkit-transition:all 0.3s ease; -o-transition:all 0.3s ease; transition:all 0.3s ease;
+  }
+  .linha{
+    width: 20%; margin: 20px auto 10px; background-color: #fff; height: 2px
+  }
+  .imgBalao{
+    width: 100%;
+  }
+  .imgRedes:hover{
+        -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);
+  }
+  .txtDireitos{
+      color: #fff; position: absolute; bottom: 10px; font-family: 'Oswald', sans-serif; font-size: 14pt
+  }
+  
+
+/* pagina serviços */
+  .linha1{
+     margin-top: 50px; padding-top: 50px
+  }
+  .col1{
+    background-image: -o-linear-gradient( 280deg, rgba(220,100,100, 0.9) 150px, rgba(0,0,0, 0.0) 50px );
+    background-image: linear-gradient( 170deg, rgba(220,100,100, 0.9) 150px, rgba(0,0,0, 0.0) 50px ); 
+    border: 4px solid rgba(0,0,0, 0.0); background-repeat: no-repeat;
+  }
+  .col2{
+    background-image: -o-linear-gradient( 310deg, rgba(100,150,210, 0.9) 100px, rgba(0,0,0, 0.0) 10px );
+    background-image: linear-gradient( 140deg, rgba(100,150,210, 0.9) 100px, rgba(0,0,0, 0.0) 10px ); height: 100px; background-repeat: no-repeat;
+  }
+  .col3{
+    background-image: -o-linear-gradient( 280deg, rgba(251,236,93, 0.9) 50px, rgba(0,0,0, 0.0) 50px );
+    background-image: linear-gradient( 170deg, rgba(251,236,93, 0.9) 50px, rgba(0,0,0, 0.0) 50px ); height: 100px; background-repeat: no-repeat;
+  }
+  .col4{
+    background-image: -o-linear-gradient( 290deg, rgba(100,150,210, 0.9) 100px,rgba(0,0,0, 0.0) 50px );
+    background-image: linear-gradient( 160deg, rgba(100,150,210, 0.9) 100px,rgba(0,0,0, 0.0) 50px );  
+    overflow: auto; height: 200px;border: 4px solid rgba(0,0,0, 0.0); margin-bottom: 10px; background-repeat: no-repeat;
+  }
+  .col5{
+    background-image: -o-linear-gradient( 290deg, rgba(251,236,93, 0.9) 100px, rgba(0,0,0, 0.0) 50px );
+    background-image: linear-gradient( 160deg, rgba(251,236,93, 0.9) 100px, rgba(0,0,0, 0.0) 50px );  
+    overflow: auto; height: 200px;border: 4px solid rgba(0,0,0, 0.0); margin-bottom: 10px; background-repeat: no-repeat;
+  }
+  .col6{
+    background-image: -o-linear-gradient( 350deg, rgba(220,100,100, 0.9) 50%, rgba(0,0,0, 0.0) 50% );
+    background-image: linear-gradient( 100deg, rgba(220,100,100, 0.9) 50%, rgba(0,0,0, 0.0) 50% ); 
+    background-repeat: no-repeat; border: 4px solid rgba(0,0,0, 0.0);
+  }
+  .col7{
+    background-color: rgba(49, 192, 204, 0.9); padding-top: 15px; margin-top: 20px; background-repeat: no-repeat; 
+     border: 4px solid rgba(0,0,0, 0.0);
+    margin-top: 100px;
+  }
+  .col8{
+    background-image: -o-linear-gradient( 260deg, rgba(251,236,93, 0.9) 100px, rgba(251,236,93, 0.9) 100px, rgba(0,0,0, 0.0) 10px );
+    background-image: linear-gradient( 190deg, rgba(251,236,93, 0.9) 100px, rgba(251,236,93, 0.9) 100px, rgba(0,0,0, 0.0) 10px ); 
+    border: 4px solid rgba(0,0,0, 0.0); margin-bottom: 10px; background-repeat: no-repeat; color: rgb(49, 192, 204); font-weight: bolder;
+  }
+  .tituloServico{
+    font-family: 'Acme', sans-serif; color: #000; 
+  }
+  .textoServico{
+    font-family: 'Open Sans', sans-serif; font-size: 12pt
+  }
+  .aspas{
+    font-family: 'Righteous', cursive; color: rgba(251,236,93, 0.9)
+  }
+
+
+
+
+
+
+
+  /* start */
+  .fundoStart{
+    background-color: #333333; margin-top: 100px; padding-top: 1px
+  }
+  .linhaStart{
+    margin-top: 100px
+  }
+  .comecar{
+    background-image: url(../img/logo.png); background-repeat: no-repeat; background-position: center;
+  }
+  .start{
+    font-family: 'Press Start 2P', cursive; font-size: 25pt; color: #fff; animation: start 0.5s linear infinite;
+  }
+  @keyframes start {
+      0% {
+          opacity: 0
+      }
+      50% {
+          opacity: 1
+      }
+      100%{
+          opacity: 0 
+      }
+  }
+  .subComecar{
+    padding-top: 20px; font-family: 'Righteous', cursive; color: rgba(220,100,100, 0.9); margin-bottom: 20px
+  }
+  .jR3DCarouselGalleryCustomeTemplate a{
+         text-decoration: none;      
+  }
+  .jR3DCarouselGallery,.jR3DCarouselGalleryCustomeTemplate {
+         margin: 0 auto; /* optional - if want to center align */
+  }
+  .jR3DCarouselGalleryCustomeTemplate .captions{
+     position: relative; padding:  4px 0; bottom: 0px; background: rgba(251,236,93, 0.9); display:block; text-align: center;
+     font-family: 'Righteous', cursive; color: #000  
+  }
+
+  /* media screen */
+  /* tela mobile */
+  @media screen and (max-width: 600px) {
+    .formulario{
+      width: 90%;
+    }
+    .carousel{
+      width: 70%; -webkit-perspective: 300px; perspective: 300px; top: 200px
+    }
+    .menu2{
+      height: 60px; width: 60px; right: 25px
+    }
+    .txtDireitos{
+      font-size: 12pt; width: 50%
+    }
+    .carousel-item {
+      font-size: 16pt;
+      padding-top: 20px;
+      -webkit-clip-path: polygon(100% 90%, 100% 50%, 100% 100%, 25% 100%, 100% 50%, 25% 0%);
+              clip-path: polygon(100% 90%, 100% 50%, 100% 100%, 25% 100%, 100% 50%, 25% 0%);
+    }
+    .logo{
+       width: 17%; right: 5%; top: 5px; transition: all 200ms linear;
+    }
+    .logo.lg{
+       width: 15%;
+    }
+    .linha1{
+          margin-top: 170px;
+    }
+    #box{
+     height: 200px;
+    }
+    .borda_texto{
+      font-size: 15pt
+    }
+    .textoServico{
+      font-size: 10pt
+    }
+    .col5{
+     overflow: visible; height: 100%
+    }
+    .col4{
+          overflow: visible; height: 100%
+    }
+      .col-start{
+          padding: 50px
+      }
+      
+  }
+  @media screen and (min-width: 600px) and (max-width: 1100px) {
+    .linha1{
+          margin-top: 60px; padding-top: 10px
+    }
+    #box{
+     height: 400px;
+    }
+    .carousel{
+      top: 200px
+    }
+  }
